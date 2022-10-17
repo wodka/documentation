@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[3891],{32427:e=>{e.exports=JSON.parse('{"specUrl":"https://app.tolgee.io/v3/api-docs/Accessible%20with%20API%20key","type":"url","content":"https://app.tolgee.io/v3/api-docs/Accessible%20with%20API%20key"}')}}]);
