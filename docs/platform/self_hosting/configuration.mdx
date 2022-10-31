@@ -26,7 +26,7 @@ e.g. `jdbc:postgresql://db:5432/postgres`
 Database username. e.g. `postgres`
 
 ### spring.datasource.password
-Database password. e.g. `postgres`
+Database password. e.g. `postgres
 
 ## Tolgee
 Configuration specific to Tolgee
@@ -469,6 +469,14 @@ The key is built with a predictable format: `${lowercase filename (without exten
 While this is useful for tests, make sure to keep this **disabled** if you're importing projects on a production
 server, as trying this predictable key may be the first thing an attacker will attempt to gain unauthorized access!
 :::
+
+## Database
+Prefix: `tolgee.database`
+
+Additional configuration for Database connection outside of spring datasource.
+
+### type
+Database type if different than postgres. e.g. `COCKROACH`
 
 
 ## `.env` example
